@@ -266,24 +266,24 @@
 									</div>
 									<div class="col-12">
 										<label>발표 주제</label>
-										<input type="text" name="주제" id="category" placeholder="ex) DAPP 개발툴및 방법론"></div>
+										<input type="text" name="주제" id="category" required placeholder="ex) DAPP 개발툴및 방법론"></div>
 									<div class="col-12">
 										<label>발표 유형</label>
 									</div>
 									<div class="col-3 col-12-small">
-										<input type="radio" id="type-dev-record" name="유형" checked>
+										<input type="radio" id="type-dev-record" name="유형" checked value="개발기">
 										<label for="type-dev-record">개발기</label>
 									</div>
 									<div class="col-3 col-12-small">
-										<input type="radio" id="type-deep-dive" name="유형">
+										<input type="radio" id="type-deep-dive" name="유형"  value="딥다이브">
 										<label for="type-deep-dive">Deep dive</label>
 									</div>
 									<div class="col-3 col-12-small">
-										<input type="radio" id="type-tutorial" name="유형">
+										<input type="radio" id="type-tutorial" name="유형"  value="튜토리얼">
 										<label for="type-tutorial">튜토리얼</label>
 									</div>
 									<div class="col-3 col-12-small">
-										<input type="radio" id="type-etc" name="유형">
+										<input type="radio" id="type-etc" name="유형"  value="기타">
 										<label for="type-etc">기타</label>
 									</div>
 
@@ -295,15 +295,15 @@
 										<label>난이도</label>
 									</div>
 									<div class="col-4 col-12-small">
-										<input type="radio" id="difficulty-low" name="난이도" checked>
+										<input type="radio" id="difficulty-low" name="난이도" value="초급" checked>
 										<label for="difficulty-low">초급</label>
 									</div>
 									<div class="col-4 col-12-small">
-										<input type="radio" id="difficulty-normal" name="난이도">
+										<input type="radio" id="difficulty-normal" name="난이도" value="중급">
 										<label for="difficulty-normal">중급</label>
 									</div>
 									<div class="col-4 col-12-small">
-										<input type="radio" id="difficulty-high" name="난이도">
+										<input type="radio" id="difficulty-high" name="난이도" value="고급">
 										<label for="difficulty-high">고급</label>
 									</div>
 									<div class="col-12">
@@ -328,13 +328,13 @@
 									</div>
 									<div class="col-12">
 										<label>이름</label>
-										<input type="text" name="이름" id="name" placeholder=""></div>
+										<input type="text" name="이름" id="name" required placeholder=""></div>
 									<div class="col-12">
 										<label>이메일</label>
-										<input type="text" name="이메일" id="email" placeholder=""></div>
+										<input type="text" name="이메일" id="email" required placeholder=""></div>
 									<div class="col-12">
 										<label>소속</label>
-										<input type="text" name="소속" id="position" placeholder=""></div>
+										<input type="text" name="소속" id="position" required placeholder=""></div>
 									<ul class="actions">
 										<li><input type="submit" value="발표 제안하기"></li>
 									</ul>
