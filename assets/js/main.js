@@ -28,6 +28,20 @@
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
+
+			//Get current cookie value
+			let languageCookie = Cookies.get('language');
+
+			if(languageCookie == undefined){
+				setKorean();
+			}else if(languageCookie == 'koreanVersion'){
+				setKorean();
+			}else if(languageCookie == 'englishVersion'){
+				setEnglish();
+			}
+
+
+
 		});
 
 	// Dropdowns.
@@ -97,4 +111,27 @@
 				}).trigger('resize.ie-banner-fix');
 			}
 
+
+
 })(jQuery);
+
+//Language change
+function setLanguage(selectedLanguage){
+	if(selectedLanguage == 'koreanVersion'){
+		setKorean();
+	}else if(selectedLanguage == 'englishVersion'){
+		setEnglish();
+	}
+}
+
+function setKorean(){
+	Cookies.set('language', 'koreanVersion');
+	$('.koreanVersion').css('display','');
+	$('.englishVersion').css('display','none');
+}
+
+function setEnglish(){
+	Cookies.set('language', 'englishVersion');
+	$('.koreanVersion').css('display','none');
+	$('.englishVersion').css('display','');
+}
