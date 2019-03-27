@@ -4282,3 +4282,8 @@ input, select, textarea {
 		box-shadow: 0 0 6rem 0 rgba(0, 0, 0, 0.125);
 		visibility: visible;
 	}
+
+.languageImage {
+	vertical-align: middle;
+	margin-right: 5px;
+}
