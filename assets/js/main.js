@@ -31,9 +31,14 @@
 
 			//Get current cookie value
 			let languageCookie = Cookies.get('language');
+			let languageType = navigator.language || navigator.userLanguage;
 
 			if(languageCookie == undefined){
-				setKorean();
+				if(languageType == 'ko-KR'){
+					setKorean();
+				}else{
+					setEnglish();
+				}
 			}else if(languageCookie == 'koreanVersion'){
 				setKorean();
 			}else if(languageCookie == 'englishVersion'){
