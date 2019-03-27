@@ -3787,6 +3787,10 @@ input, select, textarea {
 			margin-top: -3.5rem;
 		}
 
+		#header.pad {
+			padding: 0 3rem;
+		}
+
 		#header > .navPanelToggle {
 			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
 			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, top 0.2s ease-in-out, right 0.2s ease-in-out;
@@ -4282,3 +4286,8 @@ input, select, textarea {
 		box-shadow: 0 0 6rem 0 rgba(0, 0, 0, 0.125);
 		visibility: visible;
 	}
+
+.languageImage {
+	vertical-align: middle;
+	margin-right: 5px;
+}
