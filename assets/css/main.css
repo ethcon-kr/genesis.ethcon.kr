@@ -4291,3 +4291,7 @@ input, select, textarea {
 	vertical-align: middle;
 	margin-right: 5px;
 }
+
+ul.special {
+	text-align: center;
+}
