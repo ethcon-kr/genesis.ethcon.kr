@@ -10,7 +10,6 @@
     $header = $('#header'),
     $nav = $('#nav'),
     $banner = $('#banner');
-  var aaa = 11;
 
   // Breakpoints.
   breakpoints({
