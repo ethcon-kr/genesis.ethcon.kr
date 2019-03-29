@@ -12,6 +12,9 @@
 		<meta name="description" content="2019 한국 이더리움 개발자 컨퍼런스 이드콘 개최에 기여하신 분들입니다. " />
 		<meta name="keywords" content="이드콘, 이더리움, 개발자, 탈중앙, 기여자" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="icon" href="favicon.ico">
 	</head>
   <body class="is-preload">
 
@@ -19,7 +22,7 @@
     <div id="wrapper">
 
       <!-- Header -->
-      <section id="header">
+      <section id="header" class="pad">
 
         <!-- Logo -->
         <a href="index.html" class="logo"><strong>이드콘 한국</strong> ethcon korea</a>
@@ -50,6 +53,14 @@
                 -->
               </ul>
             </li>
+
+						<li>
+              <a href="#" class="icon fa-angle-down">Language</a>
+              <ul>
+								<li><a href="#" onClick="setLanguage('koreanVersion')"><img class="languageImage" src="images/kr.png"/>Korean</a></li>
+                <li><a href="#" onClick="setLanguage('englishVersion')"><img class="languageImage" src="images/us.png"/>English</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
 
@@ -58,9 +69,14 @@
 			<!-- Section -->
 			<section class="wrapper style1">
 				<div class="inner">
-					<header class="major special">
+					<header class="major special koreanVersion">
 						<h1>기여자 명단</h1>
 						<p>성공적인 이드콘 개최를 위해 도움을 주신 분들과 지지해주신 커뮤니티 구성원 여러분들께 진심으로 감사를 표합니다.</p>
+					</header>
+
+					<header class="major special englishVersion">
+						<h1>Contributors</h1>
+						<p>We are sincerely grateful to those who have helped us to successfully host Ethcon, as well as community members who have supported us.</p>
 					</header>
 					<!--
 			 <div class="image main"><img src="images/pic04.jpg" alt="" /></div>
@@ -83,6 +99,7 @@
 						<li>이준희</li>
 						<li>임완섭</li>
 						<li>장중혁</li>
+						<li>장진호</li>
 						<li>전민규</li>
 						<li>정우현</li>
 						<li>지명근</li>
@@ -121,6 +138,7 @@
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.cookie.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>

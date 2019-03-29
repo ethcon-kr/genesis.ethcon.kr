@@ -12,6 +12,9 @@
 		<meta name="description" content="2019 한국 이더리움 개발자 컨퍼런스 이드콘 발표 신청 " />
 		<meta name="keywords" content="이드콘, 이더리움, 개발자, 탈중앙, 발표 신청" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="icon" href="favicon.ico">
 	</head>
 	<body class="is-preload">
 
@@ -19,7 +22,7 @@
 		<div id="wrapper">
 
 			<!-- Header -->
-			<section id="header">
+			<section id="header" class="pad">
 
 				<!-- Logo -->
 				<a href="index.html" class="logo"><strong>이드콘 한국</strong> ethcon korea</a>
@@ -50,6 +53,14 @@
 								-->
 							</ul>
 						</li>
+
+						<li>
+              <a href="#" class="icon fa-angle-down">Language</a>
+              <ul>
+								<li><a href="#" onClick="setLanguage('koreanVersion')"><img class="languageImage" src="images/kr.png"/>Korean</a></li>
+                <li><a href="#" onClick="setLanguage('englishVersion')"><img class="languageImage" src="images/us.png"/>English</a></li>
+              </ul>
+            </li>
 					</ul>
 				</nav>
 
@@ -58,15 +69,23 @@
 			<!-- Section -->
 			<section class="wrapper style1">
 				<div class="inner">
-					<header class="major special">
+					<header class="major special koreanVersion">
 						<h1>이드콘 발표 신청</h1>
 						<p>아래 주제에 대해서 4/14까지 발표 신청을 받습니다. 
 						누구나 시작해볼 수 있는 작은 댑(DApp) 개발기 등 이더리움 개발과 관련된 다양한 주제로 
 						주저하지 마시고 발표를 신청해보세요.
 						</p>
-						<p>특히 이드콘에서는, 이드콘 발표를 하기 위해 스터디 그룹을 조직하거나 모여서 (각자) 코딩하는 모각코를 
+						<p>특히 이드콘에서는, 이드콘 발표를 하기 위해 스터디 그룹을 조직하거나 모여서 (각자) 코딩하는 모각코를
 						지원합니다. 평소에 이더리움 개발을 해보고 싶었거나, 이더리움의 특정 주제에 관심이 많았으나 쉽사리 시작하지 못했다면,
 						<a onclick="return alert('준비중에 있습니다.')" href="#">이드콘 스터디 그룹</a>을 참조해주세요
+						</p>
+					</header>
+
+					<header class="major special englishVersion">
+						<h1>Apply for Presentation in Ethcon</h1>
+						<p>We are currently receiving applications from those who want to make a presentation on the following topics until April 14th. Do not hesitate to submit your presentation on various topics related to Ethereum development. For example, developing a small-scale Dapp that anyone can try.
+						</p>
+						<p>In particular, Ethcon supports ‘Mo-gak-co’ where people can organize a study group or code together (or on their own). If you found it hard to try despite your interest in a certain field of Ethereum or just developing Ethereum in general, please refer to 	<a onclick="return alert('준비중에 있습니다.')" href="#">Ethcon Study Group</a>.
 						</p>
 					</header>
 				</div>
@@ -105,13 +124,13 @@
 					<h3>이더리움 코어와 블록체인 펀더멘털에 관련된 주제</h3>
 					<ul>
 						<li>
-							블록체인의 기본개념을 Python 코드로 직접 간단한 블록체인 코딩을 통해 이해 해보기(초급) 
+							블록체인의 기본개념을 Python 코드로 직접 간단한 블록체인 코딩을 통해 이해 해보기(초급)
 							<a href="http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/">예시</a>
 						</li>
 						<li>이더리움 EVM과 Opcodes 이해하기 (중급)</li>
 						<li>이더리움 프로토콜 implementation 경험기</li>
 						<li>Go, Parity, Python, Java 언어별 이더리움 프로토콜 구현기</li>
-						<li>이더리움 signature와 트랜잭션에 대한 이해 
+						<li>이더리움 signature와 트랜잭션에 대한 이해
 							<a href="https://hackernoon.com/a-closer-look-at-ethereum-signatures-5784c14abecc">예시 1</a>
 							<a href="https://medium.com/blockchannel/life-cycle-of-an-ethereum-transaction-e5c66bae0f6e">예시 2</a>
 						</li>
@@ -342,7 +361,7 @@
 							</form>
 						</div>
 					</div>
-				</div> 
+				</div>
 			</section>
 
 
@@ -369,6 +388,7 @@
 		<script src="assets/js/jquery.dropotron.min.js"></script>
 		<script src="assets/js/jquery.scrollex.min.js"></script>
 		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.cookie.js"></script>
 		<script src="assets/js/browser.min.js"></script>
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
