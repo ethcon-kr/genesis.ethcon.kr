@@ -164,10 +164,11 @@
         </div>
 			</section>
 
-      <section class="wrapper style1 koreanVersion" id="committee">
+      <section class="wrapper style1" id="committee">
 				<div class="inner">
 					<header class="major special">
-						<h2>스폰서 신청하기</h2>
+						<h2  class="koreanVersion">스폰서 신청하기</h2>
+						<h2  class="englishVersion">Sponsorship Application</h2>
 						<!--<p></p>-->
 					</header>
 					<div class="row">
@@ -175,21 +176,25 @@
 							<form action="https://formspree.io/sponsor@ethcon.kr" method="POST">
 								<div class="row gtr-uniform gtr-50">
 									<div class="col-12">
-										<label>기관명</label>
-										<input type="text" name="기관명" id="name" required placeholder="ex) 이드콘"/>
+										<label class="koreanVersion">기관명</label>
+										<label class="englishVersion">Organization</label>
+										<input type="text" name="기관명" id="name" required placeholder="ex) ETHCON"/>
 									</div>
 									<div class="col-12">
-										<label>담당자명 / 직책</label>
-										<input type="text" name="담당자명/직책" id="pic" required placeholder="ex) 김대리 / 대리">
+										<label class="koreanVersion">담당자명 / 직책</label>
+										<label class="englishVersion">PIC / Post</label>
+										<input type="text" name="담당자명/직책" id="pic" required placeholder="ex) Harry / PR Manager">
                   </div>
 
                   <div class="col-12">
-										<label>담당자 연락처</label>
+										<label class="koreanVersion">담당자 연락처</label>
+										<label class="englishVersion">Telephone number</label>
 										<input type="text" name="주제" id="phone" required placeholder="ex) 010-1234-5678">
                   </div>
 
                   <div class="col-12">
-										<label>담당자 이메일</label>
+										<label class="koreanVersion">담당자 이메일</label>
+										<label class="englishVersion">Email</label>
 										<input type="email" name="이메일" id="email" required placeholder="ex) sponsor@ethcon.kr">
                   </div>
 
@@ -197,73 +202,16 @@
 										<label>Tier</label>
 									</div>
 									<div class="col-3 col-12-small">
-										<input type="radio" id="tier1_kr" name="tier" checked value="Tier 1">
-										<label for="tier1_kr">Tier 1</label>
+										<input type="radio" id="tier1" name="Tier" checked value="Tier 1">
+										<label for="tier1">Tier 1</label>
 									</div>
 									<div class="col-3 col-12-small">
-										<input type="radio" id="tier2_kr" name="tier"  value="Tier 2">
-										<label for="tier2_kr">Tier 2</label>
+										<input type="radio" id="tier2" name="Tier"  value="Tier 2">
+										<label for="tier2">Tier 2</label>
 									</div>
 									<div class="col-3 col-12-small">
-										<input type="radio" id="tier3_kr" name="tier"  value="Tier 3">
-										<label for="tier3_kr">Tier 3</label>
-									</div>
-                  <div class="col-12">
-  									<ul class="actions">
-  										<li><input type="submit" value="스폰서 신청하기"></li>
-  									</ul>
-                  </div>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<!-- Section -->
-			<section class="wrapper style1 englishVersion" id="committee">
-				<div class="inner">
-					<header class="major special">
-						<h2>Sponsorship Application</h2>
-						<!--<p></p>-->
-					</header>
-					<div class="row">
-						<div class="col-12 col-12-small">
-							<form action="https://formspree.io/sponsor@ethcon.kr" method="POST">
-								<div class="row gtr-uniform gtr-50">
-									<div class="col-12">
-										<label>Organization</label>
-										<input type="text" name="Organization" id="name" required placeholder="ex) ETHCON"/>
-									</div>
-									<div class="col-12">
-										<label>PIC / Post</label>
-										<input type="text" name="PIC/Post" id="pic" required placeholder="ex) Harry / CM">
-                  </div>
-
-                  <div class="col-12">
-										<label>Telephone number</label>
-										<input type="text" name="주제" id="phone" required placeholder="ex) 010-1234-5678">
-                  </div>
-
-                  <div class="col-12">
-										<label>Email</label>
-										<input type="email" name="이메일" id="email" required placeholder="ex) sponsor@ethcon.kr">
-                  </div>
-
-									<div class="col-12">
-										<label>Tier</label>
-									</div>
-									<div class="col-3 col-12-small">
-										<input type="radio" id="tier1_en" name="tier" checked value="Tier 1">
-										<label for="tier1_en">Tier 1</label>
-									</div>
-									<div class="col-3 col-12-small">
-										<input type="radio" id="tier2_en" name="tier"  value="Tier 2">
-										<label for="tier2_en">Tier 2</label>
-									</div>
-									<div class="col-3 col-12-small">
-										<input type="radio" id="tier3_en" name="tier"  value="Tier 3">
-										<label for="tier3_en">Tier 3</label>
+										<input type="radio" id="tier3" name="Tier"  value="Tier 3">
+										<label for="tier3">Tier 3</label>
 									</div>
                   <div class="col-12">
   									<ul class="actions">
@@ -276,6 +224,7 @@
 					</div>
 				</div>
 			</section>
+
 
 
 
