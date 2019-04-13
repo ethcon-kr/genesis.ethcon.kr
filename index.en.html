@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="ko-KR">
+<html lang="en-US">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131452835-1"></script>
@@ -10,14 +10,13 @@
 
       gtag('config', 'UA-131452835-1');
     </script>
-    <title>이드콘 한국 2019</title>
+    <title>Ethcon Korea 2019</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta property="og:image" content="https://ethcon.kr/images/banner.jpg" />
-    <meta name="description" content="한국 이더리움 개발자 생태계가 같이 만들어나가는 오픈 컨퍼런스입니다." />
-    <meta name="keywords" content="이드콘, 이더리움, 개발자, 탈중앙, Ethereum, Conference, Ethcon, Korea" />
+    <meta name="description" content="Community-driven Ethereum developer conference by Ethereans in Korea" />
+    <meta name="keywords" content="Ethcon, Ethereum, Developer, Decentralization, Conference, Korea" />
     <link rel="stylesheet" href="assets/css/main.css" />
-
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="icon" href="favicon.ico">
   </head>
@@ -30,19 +29,19 @@
       <section id="header" class="alt">
 
         <!-- Logo -->
-        <a href="index.html" class="logo"><strong>이드콘 한국</strong> ethcon korea</a>
+        <a href="index.en.html" class="logo"><strong>이드콘 한국</strong> ethcon korea</a>
 
         <!-- Nav -->
         <nav id="nav">
           <ul>
-            <li><a href="proposal.html">발표 신청</a></li>
-						<li><a href="https://festa.io/events/250?fbclid=IwAR0y2s5usjv2quJig4tSW7dW7vhtEGfHv6IMqDPs7qx1WQVUsnDHJf3WXN8" target="_blank">티켓</a></li>
-            <li><a href="sponsor.html">스폰서 신청</a></li>
-            <li><a href="contributors.html">기여자</a></li>
+            <li><a href="proposal.en.html">Proposal</a></li>
+            <li><a href="https://festa.io/events/250?fbclid=IwAR0y2s5usjv2quJig4tSW7dW7vhtEGfHv6IMqDPs7qx1WQVUsnDHJf3WXN8" target="_blank">Ticket</a></li>
+            <li><a href="sponsor.en.html">Sponsorship</a></li>
+            <li><a href="contributors.en.html">Contributors</a></li>
             <li>
               <a href="#" class="icon fa-angle-down">My Ethcon</a>
               <ul>
-                <li><a onclick="return alert('준비중에 있습니다.')" href="#">내 티켓</a></li>
+                <li><a onclick="return alert('Work in progress.')" href="#">My ticket</a></li>
                 <!--
                   <li><a href="#">Option Two</a></li>
                   <li><a href="#">Option Three</a></li>
@@ -62,8 +61,8 @@
             <li>
               <a href="#" class="icon fa-angle-down">Language</a>
               <ul>
-                <li><a href="index.html"><img class="languageImage" src="images/kr.png"/>Korean</a></li>
-                <li><a href="index.en.html"><img class="languageImage" src="images/us.png"/>English</a></li>
+                <li><a href="index.html" onClick="setLanguage('koreanVersion')"><img class="languageImage" src="images/kr.png"/>Korean</a></li>
+                <li><a href="index.en.html" onClick="setLanguage('englishVersion')"><img class="languageImage" src="images/us.png"/>English</a></li>
               </ul>
             </li>
           </ul>
@@ -76,27 +75,20 @@
         <div class="content">
           <header class="major special">
             <h1>
-              이드콘 한국 2019<br/>
-              커뮤니티-드리븐 이더리움 개발자 컨퍼런스<br/>
+              ethcon korea 2019<br/>
+              Community-driven Ethereum Developers’ Conference<br/>
             </h1>
             <p>
-            5월 27일 - 28일<br/>
-            서울 코엑스 그랜드볼룸<br/><br/>
-            <span>개발자 생태계가 같이 만들어나가는 이더리움 개발자 컨퍼런스를 개최합니다.<br/>
-              이더리움 개발과 관련한 주제라면 전문성과 상관없이 누구나 발표신청을 할 수 있습니다.<br/>
-              (4/14까지 발표 신청을 받습니다)
+            May 27 – 28<br/>
+            Seoul Coex Grand Ballroom<br/><br/>
+            <span>Hosting the Ethereum Developers’ Conference, organized together with the Developers’ Community.<br/>
+              Anyone can apply to have a presentation on Ethereum development, regardless of expertise.<br/>
+              (Accepting application until April 14)
             </span>
             </p>
           </header>
-          
           <ul class="actions special">
-            <!--
-            <li><a href="#intro" class="button primary wide scrolly">자세히 알아보기</a></li>
-            -->
-            <li><a href="proposal.html" class="button primary wide">발표 신청하기</a></li>
-            <!--
-            <li><a href="proposal.html" class="button primary wide">티켓구매하기(Early bird)</a></li>
-            -->
+            <li><a href="proposal.en.html" class="button primary wide">Apply for Presentation</a></li>
           </ul>
         </div>
       </section>
@@ -105,15 +97,14 @@
       <section class="wrapper style1" id="intro">
         <div class="inner">
           <header class="major special">
-            <h2>이드콘 한국은</h2>
+            <h2>Ethcon Korea is</h2>
             <p>
-            비영리 목적의 이더리움 개발자 컨퍼런스입니다.<br/>
-            탈중앙 철학을 따릅니다.<br/>
-            커뮤니티의 자원봉사를 통해 운영됩니다.<br/>
-            특정 조직이나 집단의 이익을 대변하지 않습니다.<br/>
-            이더리움 개발 생태계의 저변을 확장하는 것을 목표로 합니다.<br/>
-            사유화되거나 사조직화되지 않습니다.<br/>
-            오픈소스 운동을 지지합니다.<br/>
+              A non-profit Ethereum developers’ conference.<br/>
+              We believe in decentralization.<br/>
+              We are run by community volunteers.<br/>
+              We do not speak for a specific organization or group’s agenda.<br/>
+              We will not be privatized or become a private organization.<br/>
+              We support the Open Source Campaign.<br/>
             <br/>
             </p>
           </header>
@@ -124,16 +115,8 @@
       <section class="wrapper style1" id="motive">
         <div class="inner">
           <header class="major special">
-            <h2>이드콘 한국을 만드는 이유?</h2>
-            <p>이더리움은 탈중앙 철학에 동의하고 오픈소스의 가치를 존중하는 수많은 개발자들로부터 지지받고 발전해나가고 있습니다.
-            한국에도 마찬가지로 이더리움의 탈중앙 정신과 오픈소스를 사랑하는 수많은 사람들이 있음에도 불구하고, 글로벌 개발 커뮤니티와
-            다소 단절된 문제로 개발 생태계에서 주도적인 역할을 하지 못하고 있거나, 연구 개발 결과물들이 밖으로 나올 적절한 창구가 부족하여
-            빛을 발하지 못하고 있기도 합니다. 이에 파이썬 커뮤니티가 지난 수 년간 아주 훌륭하게 개최한 파이콘코리아의
-            선례를 따라, 한국의 이더리움 개발자들을 위한, 또한 개발자들에 의한 커뮤니티-드리븐 컨퍼런스를 만들고자 합니다.
-            이드콘 한국을 통해 한국의 이더리움 개발자 생태계가 더욱 확장되도록 하고 그동안 각자 진행되거나 알려지지 않은 상태였던,
-            한국의 이더리움 커뮤니티가 연구/개발하고 있는 다양한 내용들이 빛을 발할 수 있게 되기를 바랍니다.
-            나아가 이드콘 코리아가 서로의 연구 개발을 공유하고 협력하는 장이 되어 진일보한 결과물을 만들어내고 결과적으로 한국의 이더리움 커뮤니티가 글로벌 이더리움 생태계에도
-            긍정적인 영향을 끼칠 수 있게 되기를 바랍니다. 이더리움의 탈중앙정신에따라, 준비를 포함한 모든 과정이 커뮤니티에 의해 진행되는 것을 지향합니다.</p>
+            <h2>Why ethcon Korea?</h2>
+            <p>Ethereum is supported and developed by many developers who believe in decentralization and the value of open source. Although there are many who also believe in such philosophy in Korea, the developers’ community fails to act as a leading role due to being severed from the global developers’ community. Similarly, the results of some studies fail to come to light due to the lack of appropriate windows and venues for them to be shown to the public. As such, following the precedent set by the Python community when they successfully organized Python Korea for several years, we plan to organize a community-driven conference for Korean Ethereum developers, and by Korean Ethereum developers. Through ethcon Korea, we hope to expand the Korean Ethereum developers’ community, and shed into light the many different contents that were researched and developed by Korean Ethereum Community, whether they were unknown to the public or developed on their own. Furthermore, ethcon Korea hopes to act as a chapter where we could share and co-operate with each other’s research and development, resulting in the Korean Ethereum Community to have a positive impact on the Global Ethereum Community. Following Ethereum’s philosophy of decentralization, we aim to have all progress, including preparation, to be made as a community.</p>
           </header>
         </div>
       </section>
